@@ -1,0 +1,46 @@
+header {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  padding: 32px 145px 65px 145px;
+  font-weight: 400;
+  font-size: 18px;
+  align-items: center;
+}
+
+header .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  font-weight: 600;
+  font-size: 24px;
+  display: inline;
+}
+
+header nav {
+  display: flex;
+  justify-content: end;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  list-style: none;
+  margin-left: 48px;
+}
+
+header a {
+  color: var(--main-text-color);
+}
+
+header .auth-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}

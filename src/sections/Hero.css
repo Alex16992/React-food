@@ -1,0 +1,4 @@
+.hero {
+  background-color: var(--highlight-bg-color);
+  height: 100vh;
+}
