@@ -125,4 +125,14 @@ legend {
 body {
   font-family: "Manrope", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+span.highlight {
+  color: var(--highlight-color);
+}
+
+h1 {
+  font-size: 65px;
+  font-weight: 700;
 }

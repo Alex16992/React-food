@@ -1,6 +1,8 @@
 .btn {
   padding: 12px 24px;
   border-radius: 4px;
+  transition: 0.5s;
+  border: 1px solid none;
 }
 
 .btn.text {
@@ -8,7 +10,29 @@
   border: none;
 }
 
+.btn.text:hover {
+  background-color: var(--highlight-bg-color);
+  color: var(--highlight-color);
+}
+
 .btn.filled {
   background-color: var(--highlight-color);
+  color: var(--filled-button-text-color);
+}
+
+.btn.filled:hover {
+  background: none;
+  outline: 1px solid var(--highlight-color);
+  color: var(--main-text-color);
+}
+
+.btn.outlined {
+  background: none;
+  border: 1px solid var(--highlight-color);
+  color: var(--highlight-color);
+}
+
+.btn.outlined:hover {
+  background: var(--highlight-color);
   color: var(--filled-button-text-color);
 }
