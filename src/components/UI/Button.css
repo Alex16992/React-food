@@ -17,7 +17,7 @@
 
 .btn.filled {
   background-color: var(--highlight-color);
-  color: var(--filled-button-text-color);
+  color: var(--filled-bg-text-color);
 }
 
 .btn.filled:hover {
@@ -34,5 +34,5 @@
 
 .btn.outlined:hover {
   background: var(--highlight-color);
-  color: var(--filled-button-text-color);
+  color: var(--filled-bg-text-color);
 }
