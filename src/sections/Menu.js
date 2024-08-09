@@ -1,4 +1,4 @@
-import FoodBlock from "../components/Items/FoodBlock"
+import FoodBlock from "../components/Blocks/FoodBlock"
 import Button from "../components/UI/Button"
 import { FaLongArrowAltRight } from "react-icons/fa"
 import "./Menu.css"

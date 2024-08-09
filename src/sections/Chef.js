@@ -1,0 +1,66 @@
+import ChefBlock from "../components/Blocks/ChefBlock"
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
+import "./Chef.css"
+
+function Chef() {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  }
+  return (
+    <div className='chef'>
+      <div className='title-container'>
+        <h2>
+          Meet Our <span className='highlight'> Expert </span> Chef
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece nas in
+          cursus at tincidunt sem. Ipsum tristique volutpat nudu.
+        </p>
+      </div>
+      <Carousel
+        responsive={responsive}
+        infinite={true}
+      >
+        <ChefBlock
+          background='./image/chef-1.png'
+          name='Vishal Khan'
+          job='Head Chef'
+        />
+        <ChefBlock
+          background='./image/chef-2.png'
+          name='Mariya Khan'
+          job='Head Chef'
+        />
+        <ChefBlock
+          background='./image/chef-3.png'
+          name='Vishal Khan'
+          job='Head Chef'
+        />
+        <ChefBlock
+          background='./image/chef-4.png'
+          name='Vishal Khan'
+          job='Head Chef'
+        />
+      </Carousel>
+    </div>
+  )
+}
+
+export default Chef
