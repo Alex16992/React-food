@@ -11,7 +11,7 @@
 .hero-container {
   display: grid;
   grid-template-columns: 2fr 3fr;
-  padding: 32px 145px 65px 145px;
+  padding: 32px 100px 65px 100px;
   font-weight: 400;
   align-items: center;
 }

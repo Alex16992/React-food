@@ -8,6 +8,7 @@
   border-radius: 10px;
   color: var(--main-text-color);
   gap: 10px;
+  background-color: #fff;
 }
 
 .our-services-block svg {

@@ -1,0 +1,22 @@
+.menu {
+  padding: 100px 145px;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  margin-top: 80px;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.menu-footer button svg {
+  width: 20px;
+  margin-left: 10px;
+}

@@ -1,0 +1,53 @@
+.food-block {
+  border: 1px solid #efefef;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.food-block-img {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.food-block_main-conteiner {
+  padding: 20px;
+}
+
+.food-block_main-conteiner svg {
+  width: 20px;
+}
+
+.food-block_main-conteiner .stars {
+  color: #ffee07;
+  margin: 10px 0;
+}
+
+.food-block_main-conteiner p {
+  margin: 20px 0;
+}
+
+.food-block_price {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.food-block_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.food-block_footer-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.food-block_footer-button button {
+  padding: 20px 25px;
+}

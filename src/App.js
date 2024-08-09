@@ -1,6 +1,7 @@
 import Hero from "./sections/Hero"
 import OurServices from "./sections/OurServices"
 import AboutUs from "./sections/AboutUs"
+import Menu from "./sections/Menu"
 
 import "./App.css"
 
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <OurServices />
       <AboutUs />
+      <Menu />
     </div>
   )
 }

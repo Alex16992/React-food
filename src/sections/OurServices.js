@@ -1,4 +1,4 @@
-import OurServicesBlock from "../components/UI/OurServicesBlock"
+import OurServicesBlock from "../components/Items/OurServicesBlock"
 import { CiDeliveryTruck } from "react-icons/ci"
 import { PiMedalThin } from "react-icons/pi"
 import { IoFastFoodOutline } from "react-icons/io5"

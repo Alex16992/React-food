@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 140px 145px;
-  height: 100vh;
   background-image: url("../image/about-us-right-bg.png");
   background-repeat: no-repeat;
   background-position: right bottom;
