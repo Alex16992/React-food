@@ -1,5 +1,6 @@
 import Hero from "./sections/Hero"
 import OurServices from "./sections/OurServices"
+import AboutUs from "./sections/AboutUs"
 
 import "./App.css"
 
@@ -8,6 +9,7 @@ function App() {
     <div className='App'>
       <Hero />
       <OurServices />
+      <AboutUs />
     </div>
   )
 }
