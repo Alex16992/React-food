@@ -5,6 +5,7 @@ import Menu from "./sections/Menu"
 import Chef from "./sections/Chef"
 
 import "./App.css"
+import Review from "./sections/Review"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutUs />
       <Menu />
       <Chef />
+      <Review />
     </div>
   )
 }

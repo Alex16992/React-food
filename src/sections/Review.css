@@ -1,0 +1,39 @@
+.review .react-multi-carousel-list {
+  overflow: visible;
+  overflow-x: hidden;
+}
+
+.review {
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.carousel-button-group {
+  position: absolute;
+  padding: 0 145px;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-button-group button {
+  padding-right: 15px;
+}
+
+.carousel-button-group button:first-child {
+  margin-left: 25%;
+}
+
+.carousel-button-group button svg {
+  color: #52d167;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+.carousel-button-group button svg:hover {
+  background-color: #000;
+  color: #ffffff;
+}

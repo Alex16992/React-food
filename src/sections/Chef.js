@@ -1,6 +1,7 @@
 import ChefBlock from "../components/Blocks/ChefBlock"
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
+import { FaChevronLeft } from "react-icons/fa"
 import "./Chef.css"
 
 function Chef() {
@@ -23,6 +24,25 @@ function Chef() {
       items: 1,
     },
   }
+
+  const ButtonGroup = ({ next, previous, goToSlide, ...rest }: any) => {
+    const {
+      carouselState: { currentSlide },
+    } = rest
+    return (
+      <div>
+        <button onClick={() => previous()}>
+          <FaChevronLeft />
+        </button>
+        <button onClick={() => next()}>
+          <span>
+            <FaChevronLeft />
+          </span>
+        </button>
+      </div>
+    )
+  }
+
   return (
     <div className='chef'>
       <div className='title-container'>
@@ -34,9 +54,10 @@ function Chef() {
           cursus at tincidunt sem. Ipsum tristique volutpat nudu.
         </p>
       </div>
+
       <Carousel
-        responsive={responsive}
         infinite={true}
+        responsive={responsive}
       >
         <ChefBlock
           background='./image/chef-1.png'
