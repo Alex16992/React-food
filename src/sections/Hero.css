@@ -48,3 +48,30 @@
     background-size: 18%;
   }
 }
+
+@media (max-width: 1000px) {
+  .hero {
+    text-align: center;
+    background-image: none;
+  }
+
+  .hero-container {
+    height: 100%;
+    grid-template-columns: 1fr;
+    padding: 32px 50px 65px 50px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-right {
+    background-size: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-container {
+    padding: 10px 20px 100px 20px;
+  }
+}

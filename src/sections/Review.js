@@ -7,7 +7,6 @@ import "./Review.css"
 function Review() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 1,
     },
@@ -52,19 +51,19 @@ function Review() {
           image='./image/review.png'
           name='Jonson Roy'
           stars={5}
-          review='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece nas in cursus at tincidunt sem. Ipsum tristique volutpat nudu elementum et, vitae purus a scelerisque massa. Cras sit et tristique potenti purus. Pharetra vestibulum, nisl feugiat  at commodo diam neque amet.'
+          review='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece nas in cursus at tincidunt sem. Ipsum tristique volutpat nudu elementum et, vitae purus a scelerisque massa. Cras sit et tristique potenti purus. Pharetra vestibulum, nisl feugiat  at commodo diam neque amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece nas in cursus at tincidunt sem. Ipsum tristique volutpat nudu elementum et, vitae purus a scelerisque massa. Cras sit et tristique potenti purus. Pharetra vestibulum, nisl feugiat  at commodo diam neque amet.'
         />
         <ReviewBlock
           image='./image/review.png'
           name='Narek Hayk'
           stars={4}
-          review='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece nas in cursus at tincidunt sem. Ipsum tristique volutpat nudu elementum et, vitae purus a scelerisque massa. Cras sit et tristique potenti purus. Pharetra vestibulum, nisl feugiat  at commodo diam neque amet.'
+          review='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece nas in cursus at tincidunt sem. Ipsum tristique volutpat nudu elementum et, vitae purus a scelerisque massa. Cras sit et tristique potenti purus. Pharetra vestibulum, nisl feugiat  at commodo diam neque amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece nas in cursus at tincidunt sem. Ipsum tristique volutpat nudu elementum et, vitae purus a scelerisque massa. Cras sit et tristique potenti purus. Pharetra vestibulum, nisl feugiat  at commodo diam neque amet.'
         />
         <ReviewBlock
           image='./image/review.png'
           name='Karen Gurgen'
           stars={3}
-          review='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece nas in cursus at tincidunt sem. Ipsum tristique volutpat nudu elementum et, vitae purus a scelerisque massa. Cras sit et tristique potenti purus. Pharetra vestibulum, nisl feugiat  at commodo diam neque amet.'
+          review='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece nas in cursus at tincidunt sem. Ipsum tristique volutpat nudu elementum et, vitae purus a scelerisque massa. Cras sit et tristique potenti purus. Pharetra vestibulum, nisl feugiat  at commodo diam neque amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maece nas in cursus at tincidunt sem. Ipsum tristique volutpat nudu elementum et, vitae purus a scelerisque massa. Cras sit et tristique potenti purus. Pharetra vestibulum, nisl feugiat  at commodo diam neque amet.'
         />
       </Carousel>
     </div>

@@ -1,7 +1,7 @@
 .subscribe {
   position: relative;
-  margin: 0 250px 100px 250px;
-  padding: 50px 250px;
+  margin: 0 250px -170px 250px;
+  padding: 50px 5%;
   background-color: var(--highlight-color);
   border-radius: 10px;
   color: #fff;
@@ -34,5 +34,30 @@
 .subscribe button {
   position: absolute;
   bottom: 82px;
-  right: 265px;
+  right: 10%;
+}
+
+@media (max-width: 1150px) {
+  .subscribe {
+    margin: 0 50px -170px 50px;
+    padding: 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .subscribe {
+    margin: 0 20px -170px 20px;
+    padding: 20px;
+  }
+
+  .subscribe input {
+    padding: 20px 140px 20px 20px;
+    font-size: 15px;
+  }
+
+  .subscribe button {
+    position: absolute;
+    bottom: 52px;
+    right: 10%;
+  }
 }

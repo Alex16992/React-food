@@ -19,3 +19,26 @@
   grid-gap: 50px;
   margin-top: 80px;
 }
+
+@media (max-width: 1150px) {
+  .our-services {
+    padding: 100px 50px;
+  }
+
+  .our-services .title-container p {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .our-services .our-services-block-container {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .our-services {
+    padding: 50px 20px;
+  }
+}

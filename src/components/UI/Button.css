@@ -4,7 +4,7 @@
   align-items: center;
   padding: 12px 24px;
   border-radius: 4px;
-  transition: 0.5s;
+  transition: 0.3s;
   border: 1px solid none;
 }
 
@@ -38,4 +38,19 @@
 .btn.outlined:hover {
   background: var(--highlight-color);
   color: var(--filled-bg-text-color);
+}
+
+.btn.filled-light {
+  background-color: var(--highlight-bg-color);
+  color: var(--highlight-color);
+}
+
+.btn.filled-light:hover {
+  color: var(--main-text-color);
+}
+
+@media (max-width: 650px) {
+  .btn {
+    padding: 6px 12px;
+  }
 }

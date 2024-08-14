@@ -4,7 +4,7 @@
 }
 
 .review {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   position: relative;
 }
 
@@ -36,4 +36,38 @@
 .carousel-button-group button svg:hover {
   background-color: #000;
   color: #ffffff;
+}
+
+@media (max-width: 1150px) {
+  .carousel-button-group {
+    position: absolute;
+    padding: 0 50px;
+    bottom: 120px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 650px) {
+  .review {
+    margin-bottom: 100px;
+  }
+
+  .carousel-button-group {
+    position: absolute;
+    padding: 0;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .carousel-button-group {
+    padding: 0 20px;
+  }
+
+  .carousel-button-group button:first-child {
+    margin-left: 20px;
+  }
 }

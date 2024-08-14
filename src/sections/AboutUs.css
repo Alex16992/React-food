@@ -22,3 +22,17 @@
   background-position: left;
   background-size: 95%;
 }
+
+@media (max-width: 1150px) {
+  .about-us {
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-us {
+    background-image: none;
+    display: block;
+    padding: 50px 20px;
+  }
+}

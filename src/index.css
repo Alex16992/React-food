@@ -125,8 +125,9 @@ legend {
 body {
   font-family: "Manrope", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-size: 20px;
+  font-size: 1vw;
   background-color: #fcfcfc;
+  overflow-x: hidden;
 }
 
 span.highlight {
@@ -134,21 +135,137 @@ span.highlight {
 }
 
 h1 {
-  font-size: 65px;
+  font-size: 3.5vw;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 54px;
+  font-size: 3vw;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 2vw;
   font-weight: 600;
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 1.5vw;
   font-weight: 600;
+}
+
+@media (max-width: 1440px) {
+  body {
+    font-size: 1.4vw;
+  }
+
+  h1 {
+    font-size: 3.7vw;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 3.2vw;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 2.2vw;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 1.7vw;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 2vw;
+  }
+
+  h1 {
+    font-size: 4vw;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 3.5vw;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 2.5vw;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 2vw;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    font-size: 3vw;
+  }
+
+  h1 {
+    font-size: 4.5vw;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 3.5vw;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 3vw;
+    font-weight: 600;
+  }
+
+  button {
+    font-size: 3.5vw;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 4vw;
+  }
+
+  h1 {
+    font-size: 8vw;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 7vw;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 6vw;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 5vw;
+    font-weight: 600;
+  }
+
+  button {
+    font-size: 5vw;
+  }
+
+  a {
+    font-size: 4.5vw;
+  }
 }

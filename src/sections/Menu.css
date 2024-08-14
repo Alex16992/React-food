@@ -20,3 +20,32 @@
   width: 20px;
   margin-left: 10px;
 }
+
+@media (max-width: 1150px) {
+  .menu {
+    padding: 100px 50px;
+  }
+
+  .menu-container {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+
+  .food-block_footer-button .btn {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .menu {
+    padding: 50px 20px;
+  }
+
+  .menu-container {
+    grid-template-columns: 1fr;
+  }
+
+  .food-block_footer-button .btn {
+    padding: 5px;
+  }
+}

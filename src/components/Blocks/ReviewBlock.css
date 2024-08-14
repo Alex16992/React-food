@@ -24,3 +24,24 @@
 .review-stars {
   color: #ffee07;
 }
+
+@media (max-width: 1150px) {
+  .review-block {
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  .review-block {
+    padding: 50px 20px 0 20px;
+  }
+
+  .review-container {
+    display: block;
+    padding: 50px 10px 100px 10px;
+  }
+
+  .review-left {
+    display: none;
+  }
+}
