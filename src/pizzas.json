@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita",
+    "image_url": "./image/menu-1.jpg",
+    "stars": 4.5,
+    "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
+    "price": 8.99
+  },
+  {
+    "id": 2,
+    "name": "Pepperoni",
+    "image_url": "./image/menu-2.jpg",
+    "stars": 4.7,
+    "description": "Spicy pepperoni with mozzarella cheese on a tomato base.",
+    "price": 10.99
+  },
+  {
+    "id": 3,
+    "name": "Vegetarian",
+    "image_url": "./image/menu-3.jpg",
+    "stars": 4.3,
+    "description": "Loaded with a variety of fresh vegetables and topped with mozzarella.",
+    "price": 9.99
+  },
+  {
+    "id": 4,
+    "name": "BBQ Chicken",
+    "image_url": "./image/menu-4.jpg",
+    "stars": 4.8,
+    "description": "Smoky BBQ sauce with grilled chicken, red onions, and cilantro.",
+    "price": 11.99
+  },
+  {
+    "id": 5,
+    "name": "Margherita",
+    "image_url": "./image/menu-5.jpg",
+    "stars": 4.5,
+    "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
+    "price": 8.99
+  },
+  {
+    "id": 6,
+    "name": "Pepperoni",
+    "image_url": "./image/menu-6.jpg",
+    "stars": 4.7,
+    "description": "Spicy pepperoni with mozzarella cheese on a tomato base.",
+    "price": 10.99
+  },
+  {
+    "id": 7,
+    "name": "Vegetarian",
+    "image_url": "./image/menu-2.jpg",
+    "stars": 4.3,
+    "description": "Loaded with a variety of fresh vegetables and topped with mozzarella.",
+    "price": 9.99
+  },
+  {
+    "id": 8,
+    "name": "BBQ Chicken",
+    "image_url": "./image/menu-3.jpg",
+    "stars": 4.8,
+    "description": "Smoky BBQ sauce with grilled chicken, red onions, and cilantro.",
+    "price": 11.99
+  }
+]

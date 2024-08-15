@@ -32,4 +32,8 @@
   .chef .title-container {
     margin-bottom: 0;
   }
+
+  .chef .title-container p {
+    width: 100%;
+  }
 }

@@ -2,7 +2,14 @@ import Button from "../UI/Button"
 import { FaStar, FaCartArrowDown, FaRegHeart } from "react-icons/fa"
 import "./FoodBlock.css"
 
-function FoodBlock({ background, stars, title, description, price }) {
+function FoodBlock({
+  background,
+  stars,
+  title,
+  description,
+  price,
+  onAddToCart,
+}) {
   return (
     <div className='food-block'>
       <div
@@ -11,7 +18,7 @@ function FoodBlock({ background, stars, title, description, price }) {
       ></div>
       <div className='food-block_main-conteiner'>
         <div className='stars'>
-          {Array.from({ length: stars }).map((_, index) => (
+          {Array.from({ length: Math.round(stars) }).map((_, index) => (
             <FaStar key={index} />
           ))}
         </div>
@@ -23,7 +30,10 @@ function FoodBlock({ background, stars, title, description, price }) {
             <Button buttonType='filled'>
               <FaRegHeart />
             </Button>
-            <Button buttonType='filled'>
+            <Button
+              buttonType='filled'
+              onClick={onAddToCart}
+            >
               <FaCartArrowDown />
             </Button>
           </div>

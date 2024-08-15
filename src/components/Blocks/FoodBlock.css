@@ -3,6 +3,7 @@
   border-radius: 20px;
   overflow: hidden;
   background-color: #fff;
+  animation: myAnim 1s ease 0s 1 normal forwards;
 }
 
 .food-block-img {
@@ -54,4 +55,14 @@
 
 .food-block_footer-button .btn svg {
   width: 25px;
+}
+
+@keyframes myAnim {
+  0% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
